@@ -1,0 +1,39 @@
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  nav{
+  }
+  #navbar-logo{
+    height: 65px;
+  }
+  .main-section{
+    display: inline;
+
+    .thermostat-img{
+      border: 2px solid deepskyblue;
+      margin-top: 25px;
+      margin-right: 25px;
+      margin-bottom: 20px;
+    }
+    #main-content{
+      text-align: justify;
+    }
+  }
+  #contact-sidebar{
+    background-color: transparent;
+    margin-top: 3em;
+    #submit{
+      margin-left: 20px;
+    }
+  }
+  #payment-icons{
+    margin: 0 7px 0 5px;
+  }
+}
+
+
+
+
+
+
