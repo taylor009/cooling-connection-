@@ -10,7 +10,7 @@ import {Link} from 'react-router'
 
 
 const NavBar = () => {
-    $(".button-collapse").sideNav();
+    // $(".button-collapse").sideNav();
     return (
         <div className="row">
             <div className="col s12">

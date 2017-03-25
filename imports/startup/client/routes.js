@@ -14,11 +14,11 @@ import Contact from '../../ui/pages/Contact';
 import About from '../../ui/pages/About';
 
 Meteor.startup(() => {
-   render((
-       <Router history={browserHistory}>
-           <Route path='/' component={Index}/>
-           <Route path='/about' component={About}/>
-           <Route path='/contact' component={Contact}/>
-       </Router>
-   ),document.getElementById('render-target'))
+    render((
+        <Router history={browserHistory}>
+            <Route path='/' component={Index}/>
+            <Route path='/about' component={About}/>
+            <Route path='/contact' component={Contact}/>
+        </Router>
+    ),document.getElementById('render-target'))
 });

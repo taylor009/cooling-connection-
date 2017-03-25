@@ -6,7 +6,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import Divider from 'material-ui/Divider';
 import {browserHistory} from 'react-router';
 
-import {Contacts} from '../../api/contacts'
+import '../../api/contacts';
 
 export default class ContactBar extends Component{
 
@@ -62,7 +62,7 @@ export default class ContactBar extends Component{
                             <label for="icon_telephone">Phone Number</label>
                         </div>
                         <div className="input-field col s6">
-                            <i className="fa fa-thermometer-full prefix" aria-hidden="true"></i>
+                            {/*<i className="fa fa-thermometer-full prefix" aria-hidden="true"></i>*/}
                             <select className="multiple " ref='problem'>
                                 <optgroup for="icon-prefix" label="Scheduling Repair">
                                     <option value="1">Problem with my unit!</option>
