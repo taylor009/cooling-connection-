@@ -9,17 +9,18 @@ import Divider from 'material-ui/Divider';
 const AboutContent = () => {
     return(
         <div className="row">
-            <div className="col s12 m7">
-                <h2 className="header">Horizontal Card</h2>
-                <div className="card horizontal">
+            <div className="col s12 m8">
+                <div className="card">
                     <div className="card-image">
-                        <img src="http://lorempixel.com/100/190/nature/6"/>
-                    </div>
-                    <div className="card-stacked">
-                        <div className="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.</p>
-                        </div>
+                        <img id="about-pic" src="Logo.png"/>
 
+                    </div>
+                    <div className="card-content">
+                        <span className="card-title">About the Company</span>
+                        <p>Cooling Connection Inc was found by Rober Mckenna in 2006. Cooling Connection
+                            is a small family owned and operated business located in Port St Lucie Florida. Founder Bob
+                            has been working with HVAC for the past 20 years and is extremely knowledge in the field.
+                        </p>
                     </div>
                 </div>
             </div>
